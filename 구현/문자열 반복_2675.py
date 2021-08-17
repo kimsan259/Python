@@ -5,4 +5,4 @@ for i in range(T):
     R = int(R)
     S = str(S)
     for i in range(len(S)):
-        print(R*S[i],end = '')
+        print(R*S[i])
