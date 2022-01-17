@@ -1,7 +1,4 @@
-num = input()
-num = int(num)
-result = 0
-for i in range(0,num):
-    result += num % 10
-    num //= 10
-print(result)
+number = list(input())
+number = list(map(int,number))
+sum_number = sum(number)
+print(sum_number)
